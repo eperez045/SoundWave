@@ -17,15 +17,15 @@ function Discover(props){
                     <Grid container direction="row" alignItems="center">
                         <div className="grid-simbol">
                             <img className="simbol" src={micro} alt="Micro" />
-                            <a className="link-discover" href={url} target="_blank">Charts</a>
+                            <a className="link-discover" href={url} target="_blank" rel="noopener noreferrer">Charts</a>
                         </div>
                         <div className="grid-simbol">
                             <img className="simbol" src={album} alt="Album" />
-                            <a className="link-discover" href={url} target="_blank">Albums</a>
+                            <a className="link-discover" href={url} target="_blank" rel="noopener noreferrer">Albums</a>
                         </div>
                         <div className="grid-simbol">
                             <img className="simbol" src={more} alt="More" />
-                            <a className="link-discover" href={url} target="_blank">More</a>
+                            <a className="link-discover" href={url} target="_blank" rel="noopener noreferrer">More</a>
                         </div>
                     </Grid>
                     <p>By joining you can benefit by listening to the latest albums relasead</p>

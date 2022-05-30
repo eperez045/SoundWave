@@ -127,7 +127,7 @@ body{
     background-color: #3457b21a;
     border-radius: 50%;
     left: 0;
-    transform: translate(250px, -250px);
+    transform: translate(150px, -150px);
 
 }
 .text-join{
@@ -210,7 +210,6 @@ body{
 .items-footer {
     display: flex;
     gap: 1em;
-    font-size: 15px;
     font-weight: bold;
 }
 
@@ -226,5 +225,33 @@ body{
 @media (max-width: 600px) {
     .grid-block-girl {
       display: none;
+    }
+    .circle1{
+        height: 5em;
+        width: 5em;
+    }
+    .circle2{
+        height: 4em;
+        width: 4em;
+    }
+    .circle3{
+        height: 6em;
+        width: 6em;
+        transform: translate(-30px, 250px);
+    }
+    .circle4{
+        height: 4em;
+        width: 4em;
+    }
+    .circle5{
+        height: 7em;
+        width: 7em;
+    }
+    .footer{
+        padding: 1px;
+    }
+    .items-footer{
+        font-size: 10px;
+        gap: 1rem;
     }
   }

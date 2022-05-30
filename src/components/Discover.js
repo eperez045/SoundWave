@@ -8,6 +8,7 @@ import Grid from '@mui/material/Grid';
 
 
 function Discover(props){
+    let url = "https://open.spotify.com/playlist/1oDFhhelWwfCnWsD74Jfq0?si=0b2ec78969684623"
     return (
         <div className="discover">
             <Grid container direction="row" justifyContent="center" alignItems="center">
@@ -16,15 +17,15 @@ function Discover(props){
                     <Grid container direction="row" alignItems="center">
                         <div className="grid-simbol">
                             <img className="simbol" src={micro} alt="Micro" />
-                            <p>Charts</p>
+                            <a className="link-discover" href={url} target="_blank">Charts</a>
                         </div>
                         <div className="grid-simbol">
                             <img className="simbol" src={album} alt="Album" />
-                            <p>Albums</p>
+                            <a className="link-discover" href={url} target="_blank">Albums</a>
                         </div>
                         <div className="grid-simbol">
                             <img className="simbol" src={more} alt="More" />
-                            <p>More</p>
+                            <a className="link-discover" href={url} target="_blank">More</a>
                         </div>
                     </Grid>
                     <p>By joining you can benefit by listening to the latest albums relasead</p>

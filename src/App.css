@@ -67,7 +67,7 @@ body{
     background-color: #3457b21a;
     border-radius: 50%;
     right: 0;
-    transform: translate(100px, 150px);
+    transform: translate(100px, 100px);
     overflow: hidden;
 }
 
@@ -103,6 +103,9 @@ body{
     height: 2em;
     width: 100%;
 }
+.link-discover{
+    color: aliceblue;
+}
 
 /* Join */
 .join {
@@ -134,7 +137,7 @@ body{
     font-weight: bolder;
 }
 .acent{
-    color: #ff27df;
+    color: #BC3A80;
 }
 .form{
     background-color: #202027;
@@ -177,7 +180,7 @@ body{
     justify-content: space-around;
     padding: 20px;
     height: 10vh;
-    position: fixed;
+    /* position: fixed; */
     /* width: 100%; */
     z-index: 100;
    }
@@ -189,9 +192,13 @@ body{
     gap: 1em;
     font-size: 18px;
    }
-.menu li{
+.nav-link-main{
+    color: aliceblue;
+}
+.nav-link{
     display: block;
     padding: 1em;
+    color: aliceblue;
 }
 .nav-link:hover{
     background-color: #202027;

@@ -14,7 +14,7 @@ body{
 
 /* Main */
 .main{
-    height: 100vh;
+    height: 84vh;
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -41,7 +41,7 @@ body{
     background-color: #2180d8;
 }
 .img-girl{
-    height: 100vh;
+    height: 84vh;
     z-index: 10;
 }
 .circle5{
@@ -62,8 +62,8 @@ body{
 }
 .circle3{
     position: absolute;
-    height: 30em;
-    width: 30em;
+    height: 28em;
+    width: 28em;
     background-color: #3457b21a;
     border-radius: 50%;
     right: 0;
@@ -75,7 +75,7 @@ body{
 
 /* Discover */
 .discover{
-    height: 100vh;
+    height: 84vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,15 +109,16 @@ body{
 
 /* Join */
 .join {
-    height: 100vh;
+    height: 84vh;
+    margin-top: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .circle1{
     position: absolute;
-    height: 30em;
-    width: 30em;
+    height: 28em;
+    width: 28em;
     background-color: #bc3a801a;
     border-radius: 50%;
     left: 0;
@@ -206,6 +207,7 @@ body{
 
 /* Footer */
 .footer{
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -260,5 +262,9 @@ body{
     .items-footer{
         font-size: 10px;
         gap: 1rem;
+    }
+    .discover{
+        margin-top: 5em;
+        margin-bottom: 5em;
     }
   }

@@ -14,7 +14,7 @@ function Discover(props){
             <Grid container direction="row" justifyContent="center" alignItems="center">
                 <div className="grid-block">
                     <h1>Discover new music</h1>
-                    <Grid container direction="row" alignItems="center">
+                    <Grid container direction="row" alignItems="center" className="box">
                         <div className="grid-simbol">
                             <img className="simbol" src={micro} alt="Micro" />
                             <a className="link-discover" href={url} target="_blank" rel="noopener noreferrer">Charts</a>

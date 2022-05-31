@@ -67,7 +67,7 @@ body{
     background-color: #3457b21a;
     border-radius: 50%;
     right: 0;
-    transform: translate(100px, 100px);
+    transform: translate(100px, 50px);
     overflow: hidden;
 }
 
@@ -117,21 +117,21 @@ body{
 }
 .circle1{
     position: absolute;
-    height: 28em;
-    width: 28em;
+    height: 25em;
+    width: 25em;
     background-color: #bc3a801a;
     border-radius: 50%;
     left: 0;
-    transform: translate(-100px, 100px);
+    transform: translate(-100px, 50px);
 }
 .circle2{
     position: absolute;
-    height: 20em;
-    width: 20em;
+    height: 15em;
+    width: 15em;
     background-color: #3457b21a;
     border-radius: 50%;
     left: 0;
-    transform: translate(150px, -150px);
+    transform: translate(300px, -100px);
 
 }
 .text-join{
@@ -142,7 +142,7 @@ body{
 }
 .form{
     background-color: #202027;
-    margin: 4em;
+    margin: 3em;
     padding: 2em;
     border-radius: 15px;
     width: 25em;

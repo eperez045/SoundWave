@@ -1,6 +1,7 @@
 import React from "react";
 import girlImg from '../images/landing-page-girl.png';
 import Grid from '@mui/material/Grid';
+import Join from "./Join";
 
 
 function Main(props){
@@ -16,7 +17,7 @@ function Main(props){
             <div className="grid-block-main">
                 <h1>Feel the music</h1>
                 <h4>Stream over 20 thousand songs with one click</h4>
-                <button className="main-button">Join Us</button>
+                <button className="main-button" href={Join}>Join Us</button>
             </div>  
             </ Grid>
         </div>

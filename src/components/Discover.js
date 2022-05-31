@@ -4,13 +4,15 @@ import micro from '../images/microphone.svg';
 import album from '../images/albums.svg';
 import more from '../images/more.svg';
 import Grid from '@mui/material/Grid';
+import Footer from "./Footer";
 
 
 
 function Discover(props){
     let url = "https://open.spotify.com/playlist/1oDFhhelWwfCnWsD74Jfq0?si=0b2ec78969684623"
     return (
-        <div className="discover">
+        <div>
+            <div className="discover">
             <Grid container direction="row" justifyContent="center" alignItems="center">
                 <div className="grid-block">
                     <h1>Discover new music</h1>
@@ -35,6 +37,9 @@ function Discover(props){
                 </div>
             </Grid>
         </div>
+        <Footer />
+        </div>
+        
         
     )
 }

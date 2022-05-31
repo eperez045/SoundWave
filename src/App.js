@@ -1,6 +1,5 @@
 import './App.css';
 import Main from './components/Main';
-import Footer from './components/Footer';
 import Discover from './components/Discover';
 import Join from './components/Join';
 import logo from './images/logo.png'
@@ -29,7 +28,6 @@ function App() {
         <Route path="/join" element={<Join />}>
         </Route>
       </Routes>
-      <Footer />
     </Router>
     
   );
